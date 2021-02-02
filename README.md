@@ -1,6 +1,6 @@
 docker 构建android 28 环境
 
-``
+```
 ARG  JDK_VERSION=8
 FROM openjdk:${JDK_VERSION}-jdk-alpine
 ARG  GRADLE_VERSION="5.6.4"
